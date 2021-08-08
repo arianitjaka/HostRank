@@ -1,0 +1,355 @@
+.panel1-dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    .panel-container{
+        
+        box-shadow: 3px 9px 20px 1px rgba(black , 0.05);
+        padding: 30px;
+        padding-top: 10px;
+        background-color: rgba(209, 209, 209, 0.014);
+        width: 70%;
+        @media(max-width:831px){
+            overflow-x: hidden;
+            width: 90%;
+        }
+        .performance{
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid rgba(128, 128, 128, 0.075);
+            
+            h2{
+                text-align: left;
+                font-weight: 200;
+                font-size: 24px;
+                text-transform: capitalize;
+            }
+            ul{
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: center;
+                li{
+                    list-style: none;
+                    text-align: center;
+                    margin: 0px 10px;
+                    h3{
+                        color:rgb(87, 84, 84);
+                        border-bottom: 1px solid rgba(0, 0, 255, 0.589);
+                        padding:13px 10px ;
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .charts-container{
+            display: flex;
+            justify-content: center;
+             flex-wrap: wrap;
+            .line-chart{
+                width: 420px;
+                text-align: left;
+                padding: 10px;
+                background-color: white;
+                border: 1px solid rgba(128, 128, 128, 0.075);
+                h3{
+                    font-weight: 400;
+                }
+            }
+        }
+        .cards{
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .table{
+                width: 170px;
+                padding: 20px;
+                background-color: white;
+               margin: 5px;
+                margin-right: 5px;
+               border: 1px solid rgba(128, 128, 128, 0.075);
+                h2{
+                    font-size: 20px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid rgba(128, 128, 128, 0.192);
+                    text-align: left;
+                    font-weight: 400;
+                }
+                h1{
+                    font-weight: 400;
+                    margin-top: 20px;
+                    font-size: 30px;
+                    text-align: center;
+                }
+            }
+        }
+        .second-section{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+          
+            .second2{
+                display: flex;
+                
+                button{
+                    margin: 0px 10px;
+                    width: 110px;
+                    border: none;
+                    background: none;
+                    height: 40px;
+                    align-items: center;
+                    text-align: center;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    .icon{
+                        
+                        font-size: 20px;
+                    }
+                }
+                .actionsbtn{
+                    border: 1px solid blue;
+                    color: blue;
+                }
+                .widgetbtn{
+                    background-color: blue;
+                    color: white;
+                }
+            }
+         .second1{
+             display: flex;
+             width: 100%;
+             align-items: center;
+             flex-wrap: wrap;
+            .addbutton{
+                padding: 5px 15px;
+                cursor: pointer;
+                height: 40px;
+                font-size: 18px;
+                border: none;
+                background: none;
+                border: 1px solid blue;
+                color: blue;
+                margin-left: 20px;
+                &:hover{
+                    background-color: blue;
+                    color: white;
+                }
+            }
+            .selectform{
+                width: 30%;
+              
+               
+            }
+         }
+        }
+       .first-section{
+           flex-wrap: wrap;
+           display: flex;
+           justify-content: space-between;
+           padding-bottom: 10px;
+           border-bottom: 1px solid rgba(209, 209, 209, 0.582);
+           .selectform{
+            width: 30%;
+            margin-right: 20px;
+            margin-top: 15px;
+        }
+        h2{
+            font-weight: 500;
+            color: rgb(65, 65, 65);
+        }
+       }
+    }
+}
+@media(max-width:414px){
+   .panel1-dashboard{
+       .panel-container{
+           width: 90%;
+           padding: 20px 10px;
+           .performance{
+               text-align: left;
+              
+               ul{
+
+                   margin: 0px;
+                
+                   justify-content: space-between;
+                   li{
+                       margin: 10px 0px;
+                   }
+               }
+           }
+           .charts-container{
+               .line-chart{
+                   width: 100%;
+                   margin: 10px 0px;
+               }
+           }
+           .cards{
+               .table{
+                   margin: 10px 0px;
+                   width: 90%;
+               }
+           }
+           .first-section{
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               .selectform{
+                   width: 100%;
+               }
+           }
+           .second-section{
+       
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               .second1{
+                   flex-direction: column;
+                   margin-bottom: 10px;
+                   .selectform{
+                       width: 100%;
+                       margin-bottom: 10px;
+                   }
+               }
+               .second2{
+                   flex-direction: column;
+                   button{
+                       margin: 0px;
+                       margin-bottom: 10px;
+                   }
+               }
+           }
+       }
+   }
+}
+.panel2-ext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    .panel-container{
+        box-shadow: 3px 9px 20px 1px rgba(black , 0.05);
+        padding: 30px;
+        padding-top: 10px;
+        background-color: rgba(209, 209, 209, 0.014);
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2{
+            font-size: 28px;
+            font-weight: 400;
+        }
+       .charts{
+           display: flex;
+           justify-content: center;
+           width: 100%;
+           margin-top: 40px;
+           .single-chart{
+            width: 30%;
+            text-align: left;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid rgba(128, 128, 128, 0.075);
+           }
+           .single-chart2{
+               width: 60%;
+               text-align: left;
+               padding: 10px;
+               background-color: white;
+               border: 1px solid rgba(128, 128, 128, 0.075);
+           }
+       }
+        .tabs-ext{
+            border: 1px solid rgba(128, 128, 128, 0.075);
+            padding:10x 30px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: rgba(128, 128, 128, 0.082);
+            .dates{
+               
+                padding: 0px 40px;
+                display: flex;
+                justify-content: space-between;
+                .setButton{
+                    width: 120px;
+                    height: 40px;
+                    margin-top: 7px;
+                    border: none;
+                    background: none;
+                    background-color: rgb(54, 162, 235);
+                    color: white;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            }
+            ul{
+
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                li{
+                    cursor: pointer;
+                    list-style: none;
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+}
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+    display: block;
+    width: 50%;
+    border: none;
+    padding: 10px;
+}
+@media(max-width :980px){
+    .panel2-ext{
+        .panel-container{
+            width: 90%;
+            padding: 30px 10px;
+            .tabs-ext{
+                width: 100%;
+            }
+            .charts{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .single-chart{
+                    width: 50%;
+                }
+                .single-chart2{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media(max-width:414px){
+    .panel2-ext{
+        .panel-container{
+            .tabs-ext{
+                .dates{
+                    flex-wrap: wrap;
+                }
+            }
+            .charts{
+                .single-chart{
+                    width: 70%;
+                }
+            }
+        }
+    }
+}

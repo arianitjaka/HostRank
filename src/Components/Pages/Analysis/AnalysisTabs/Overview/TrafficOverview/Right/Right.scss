@@ -1,0 +1,67 @@
+.tsc-right {
+    padding: 10px 20px;
+}
+
+.traffic-insights-content {
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.ti-title {
+    text-align: left;
+
+    h1 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 12px;
+        margin-top: 0;
+    }
+}
+
+.total-visits-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .tv-left {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 15px;
+            height: 15px;
+            margin-bottom: 1px;
+        }
+
+        h1 {
+            font-size: 12px;
+            font-weight: 400;
+            margin-left: 6px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    .tv-right {
+        h1 {
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+}
+
+.tv-hr {
+    margin: 5px auto;
+    opacity: .2;
+}
+
+#tv-bottom {
+    h1 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

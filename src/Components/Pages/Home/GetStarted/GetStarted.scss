@@ -1,0 +1,143 @@
+.get-started {
+    margin-top: -20px;
+}
+
+.gt-title h1 {
+    width: max-content;
+    margin: auto;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.gt-tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 500px auto 500px;
+    cursor: pointer;
+
+    .active-tabs {
+        border-bottom: 3px solid #003CFF;
+        cursor: pointer;
+    }
+
+    // .active-tabs::before {
+    //     content: "";
+    //     display: block;
+    //     position: absolute;
+    //     top: -5px;
+    //     left: 50%;
+    //     transform: translateX(-50%);
+    //     width: calc(100% + 2px);
+    //     height: 5px;
+    //     background: blue;
+    // }
+
+    .tabs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5px;
+        cursor: pointer;
+    
+    h1 {
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}
+
+}
+
+.content {
+    // padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.active-content {
+    display: block;
+}
+
+.charts {
+
+    img {
+        width: 75%;
+        margin-top: -50px;
+        // margin-bottom: 50px;
+    }
+}
+
+.not-found {
+    margin-bottom: 200px;
+}
+
+
+
+// Responsive
+@media screen and (max-width: 1350px) {
+    .gt-tabs {
+        margin: 30px 400px auto 400px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .gt-tabs {
+        margin: 30px 300px auto 300px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .gt-tabs {
+        margin: 30px 200px auto 200px;
+    }
+    .charts img {
+        width: 100%;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gt-tabs {
+        margin: 30px 100px auto 100px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .gt-tabs {
+        margin: 30px 20px auto 20px;
+    }
+    .charts img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .tabs img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .gt-title h1 {
+        font-size: 30px;
+    }
+    .dashboard-tab h1, .google-ex-tab h1 {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gt-title h1 {
+        font-size: 25px;
+    }
+    .dashboard-tab h1, .google-ex-tab h1 {
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .gt-title h1 {
+        font-size: 20px;
+    }
+}

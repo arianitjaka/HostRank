@@ -1,0 +1,131 @@
+@import "../../../Utils//mixins";
+.nav-item {
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 50px;
+  position: relative;
+  @include for-laptop-min {
+    margin-left: 15px;
+  }
+  @include for-laptop-s {
+    margin-left: 10px;
+  }
+  a {
+    display: inline-flex;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    align-items: center;
+    @include for-laptop-min {
+      font-size: 16px;
+    }
+    @include for-laptop-s {
+      font-size: 15px;
+    }
+    .navBar-icon {
+      display: flex;
+      align-items: center;
+      div {
+        margin-left: 7px;
+        display: flex;
+        align-items: center;
+        @include for-laptop-min {
+          margin-left: 5px;
+        }
+        @include for-laptop-s {
+          margin-left: 3px;
+        }
+      }
+    }
+  }
+  &:hover {
+    a {
+      .navBar-icon {
+        svg {
+          transform: rotate(180deg);
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+}
+.nav-item_getStartedMenu:hover {
+  .getStartedMenu {
+    display: block;
+    transition: all 1s;
+    animation: 400ms ease-out 0s 1 forwards running fadeInUp;
+    left: -165px;
+    .triangle {
+      left: 227px;
+    }
+  }
+}
+.nav-item_domainsMenu:hover {
+  .domainsMenu {
+    display: block;
+    transition: all 1s;
+    animation: 400ms ease-out 0s 1 forwards running fadeInUp;
+    left: -178px;
+    .triangle {
+      left: 227px;
+    }
+  }
+}
+.nav-item_servicesMenu:hover {
+  .servicesMenu {
+    display: block;
+    transition: all 1s;
+    animation: 400ms ease-out 0s 1 forwards running fadeInUp;
+    left: -178px;
+    .triangle {
+      left: 243px;
+    }
+  }
+}
+.nav-item_marketplaceMenu:hover {
+  .marketplaceMenu {
+    display: block;
+    transition: all 1s;
+    animation: 400ms ease-out 0s 1 forwards running fadeInUp;
+    left: -285px;
+    .triangle {
+      left: 354px;
+    }
+  }
+}
+.nav-item_solutionsMenu:hover {
+  .solutionsMenu {
+    display: block;
+    transition: all 1s;
+    animation: 400ms ease-out 0s 1 forwards running fadeInUp;
+    left: -381px;
+    .triangle {
+      left: 459px;
+    }
+  }
+}
+.nav-item_supportMenu:hover {
+  .supportMenu {
+    display: block;
+    transition: all 1s;
+    animation: 400ms ease-out 0s 1 forwards running fadeInUp;
+    left: -502px;
+    .triangle {
+      left: 570px;
+    }
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(6em);
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}

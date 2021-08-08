@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="341" height="277" viewBox="0 0 341 277">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_64" data-name="Rectangle 64" width="15" height="15" transform="translate(1313 1410)" fill="#003cff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_64-2" data-name="Rectangle 64" width="15" height="15" transform="translate(1313 1460)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_64-3" data-name="Rectangle 64" width="15" height="15" transform="translate(1313 1510)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_64-4" data-name="Rectangle 64" width="15" height="15" transform="translate(1313 1560)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="Rectangle_64-5" data-name="Rectangle 64" width="15" height="15" transform="translate(1313 1610)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_246" data-name="Group 246" transform="translate(-1303 -1849)">
+    <text id="country" transform="translate(1303 1863)" fill="#4a5867" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">Country</tspan></text>
+    <text id="share" transform="translate(1428 1863)" fill="#4a5867" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">Share</tspan></text>
+    <text id="traffic" transform="translate(1602 1863)" fill="#4a5867" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">Traffic</tspan></text>
+    <g id="Group_152" data-name="Group 152" transform="translate(0 484)">
+      <rect id="Rectangle_59" data-name="Rectangle 59" width="340" height="50" transform="translate(1303 1392)" fill="#fff"/>
+      <text id="worldwide" transform="translate(1328 1423)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">Worldwide</tspan></text>
+      <text id="_100_" data-name="100%" transform="translate(1508 1423)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">100%</tspan></text>
+      <text id="_4.2B" data-name="4.2B" transform="translate(1612 1423)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">4.2B</tspan></text>
+      <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(-10)" clip-path="url(#clip-path)">
+        <g id="_814587" data-name="814587" transform="translate(1313 1410)">
+          <g id="Group_153" data-name="Group 153">
+            <path id="Path_44" data-name="Path 44" d="M7.5,0A7.5,7.5,0,0,0,.608,4.549L.515,4.58l.036.109A7.5,7.5,0,1,0,7.5,0Zm5.882,11.279L13,10.9V10a.25.25,0,0,0-.025-.112L12,7.941V7a.25.25,0,0,0-.111-.208l-.75-.5a.25.25,0,0,0-.2-.034l-.918.229L8.478,5.825,8.266,4.339l.588-.588h1.262l.425.639a.25.25,0,0,0,.167.108l1.5.25a.248.248,0,0,0,.12-.009l1.381-.46A6.974,6.974,0,0,1,13.384,11.281ZM12.353,2.465l-.406.271-1.133-.227-.735-.245a.245.245,0,0,0-.139-.005l-.929.232L8.6,2.355l.3-.6H9.75a.25.25,0,0,0,.112-.026l.865-.432A7.024,7.024,0,0,1,12.353,2.465ZM4.763,1.06l.6.4a.25.25,0,0,0,.1.038l1.211.2-.118.354-.631.211a.25.25,0,0,0-.135.108l-.718,1.2-1.153.692-1.7.243A.25.25,0,0,0,2,4.751V5.5a.25.25,0,0,0,.073.177L2.5,6.1v.429L1.462,5.84,1.085,4.708A7.039,7.039,0,0,1,4.763,1.06Zm-.712,8.2-1.13-.226L2.5,8.191V7.6l.931-.931.345.69A.25.25,0,0,0,4,7.5H5.609l.677,1.129A.25.25,0,0,0,6.5,8.75H7.2l-.175.877-.946.946A.25.25,0,0,0,6,10.749v.625l-.9.675a.25.25,0,0,0-.1.2v.9l-.311-.1-.439-1.1V9.5A.25.25,0,0,0,4.051,9.255ZM3.3,13.1A7,7,0,0,1,.807,5.456l.208.623a.25.25,0,0,0,.1.129l1.246.831-.284.284A.25.25,0,0,0,2,7.5v.75a.25.25,0,0,0,.026.112l.5,1a.25.25,0,0,0,.175.133l1.05.21V12a.25.25,0,0,0,.018.093l.5,1.25a.25.25,0,0,0,.153.144l.75.25a.246.246,0,0,0,.078.013.25.25,0,0,0,.25-.25V12.374l.9-.675a.25.25,0,0,0,.1-.2v-.646l.927-.927A.25.25,0,0,0,7.5,9.8l.25-1.25a.25.25,0,0,0-.245-.3H6.642L5.965,7.121A.25.25,0,0,0,5.751,7h-1.6l-.429-.862A.25.25,0,0,0,3.543,6a.245.245,0,0,0-.217.07L3,6.4V6a.25.25,0,0,0-.073-.177L2.5,5.4v-.43l1.535-.219a.251.251,0,0,0,.093-.033l1.25-.75a.25.25,0,0,0,.085-.085l.7-1.171.662-.221a.247.247,0,0,0,.158-.158l.25-.75a.25.25,0,0,0-.2-.325L5.595,1.014,5.341.845a6.979,6.979,0,0,1,4.807.179l-.457.228H8.75a.25.25,0,0,0-.225.138l-.5,1a.25.25,0,0,0,.112.335l.033.013.75.25a.245.245,0,0,0,.139.005l.929-.232.681.227L10.7,3l1.25.25a.248.248,0,0,0,.188-.037l.569-.379a7.051,7.051,0,0,1,.752,1l-1.23.41L10.9,4.022l-.44-.66a.25.25,0,0,0-.207-.111H8.75a.25.25,0,0,0-.177.073l-.75.75a.25.25,0,0,0-.071.212L8,6.036a.25.25,0,0,0,.15.194l1.75.75a.247.247,0,0,0,.159.013l.893-.223.546.364V8a.25.25,0,0,0,.025.112l.975,1.947V11a.25.25,0,0,0,.073.177l.523.523A7,7,0,0,1,3.3,13.1Z" fill="#003cff" stroke="#707070" stroke-width="0.031"/>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectangle_67" data-name="Rectangle 67" width="70" height="5" rx="2.5" transform="translate(1428 1415)" fill="#003cff"/>
+    </g>
+    <rect id="Rectangle_59-2" data-name="Rectangle 59" width="340" height="50" transform="translate(1303 1926)" fill="#fff"/>
+    <text id="USA" transform="translate(1328 1957)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">USA</tspan></text>
+    <text id="_18_" data-name="18%" transform="translate(1508 1957)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">18%</tspan></text>
+    <text id="_736.8M" data-name="736.8M" transform="translate(1593 1957)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">736.8M</tspan></text>
+    <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-10 484)" clip-path="url(#clip-path-2)">
+      <g id="_197484_2_" data-name="197484 (2)" transform="translate(1313 1460)">
+        <circle id="Ellipse_15" data-name="Ellipse 15" cx="7.5" cy="7.5" r="7.5" fill="#f0f0f0"/>
+        <g id="Group_154" data-name="Group 154">
+          <path id="Path_45" data-name="Path 45" d="M7.174,7.5H15a7.508,7.508,0,0,0-.258-1.957H7.174Z" fill="#d80027"/>
+          <path id="Path_46" data-name="Path 46" d="M7.174,3.587H13.9A7.54,7.54,0,0,0,12.169,1.63H7.174Z" fill="#d80027"/>
+          <path id="Path_47" data-name="Path 47" d="M7.5,15a7.468,7.468,0,0,0,4.669-1.63H2.831A7.468,7.468,0,0,0,7.5,15Z" fill="#d80027"/>
+          <path id="Path_48" data-name="Path 48" d="M1.1,11.413H13.9a7.455,7.455,0,0,0,.842-1.957H.258A7.455,7.455,0,0,0,1.1,11.413Z" fill="#d80027"/>
+        </g>
+        <path id="Path_49" data-name="Path 49" d="M3.474,1.171h.683l-.636.462.243.747-.636-.462-.636.462.21-.646A7.541,7.541,0,0,0,1.248,3.356h.219l-.4.294q-.095.158-.181.32l.193.595L.714,4.3q-.134.285-.245.582l.213.655h.786L.832,6l.243.747L.439,6.288l-.381.277A7.572,7.572,0,0,0,0,7.5H7.5V0A7.464,7.464,0,0,0,3.474,1.171ZM3.765,6.75l-.636-.462-.636.462L2.736,6,2.1,5.541h.786l.243-.747.243.747h.786L3.522,6ZM3.522,3.818l.243.747L3.129,4.1l-.636.462.243-.747L2.1,3.356h.786l.243-.747.243.747h.786ZM6.455,6.75l-.636-.462-.636.462L5.426,6l-.636-.462h.786l.243-.747.243.747h.786L6.212,6ZM6.212,3.818l.243.747L5.819,4.1l-.636.462.243-.747-.636-.462h.786l.243-.747.243.747h.786Zm0-2.185.243.747-.636-.462-.636.462.243-.747-.636-.462h.786L5.819.424l.243.747h.786Z" fill="#0052b4"/>
+      </g>
+    </g>
+    <g id="Group_198" data-name="Group 198" transform="translate(0 484)">
+      <rect id="Rectangle_67-2" data-name="Rectangle 67" width="70" height="5" rx="2.5" transform="translate(1428 1465)" fill="#efefef"/>
+      <rect id="Rectangle_68" data-name="Rectangle 68" width="12" height="5" rx="2.5" transform="translate(1428 1465)" fill="#003cff"/>
+    </g>
+    <rect id="Rectangle_59-3" data-name="Rectangle 59" width="340" height="50" transform="translate(1303 1976)" fill="#fff"/>
+    <text id="IN" transform="translate(1328 2007)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">IN</tspan></text>
+    <text id="_12_" data-name="12%" transform="translate(1508 2007)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">12%</tspan></text>
+    <text id="_484.6M" data-name="484.6M" transform="translate(1593 2007)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">484.6M</tspan></text>
+    <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(-10 484)" clip-path="url(#clip-path-3)">
+      <g id="india" transform="translate(1313 1510)">
+        <circle id="Ellipse_16" data-name="Ellipse 16" cx="7.5" cy="7.5" r="7.5" fill="#f0f0f0"/>
+        <path id="Path_50" data-name="Path 50" d="M7.5,0A7.5,7.5,0,0,0,.744,4.239H14.256A7.5,7.5,0,0,0,7.5,0Z" fill="#ff9811"/>
+        <path id="Path_51" data-name="Path 51" d="M7.5,15a7.5,7.5,0,0,0,6.756-4.239H.744A7.5,7.5,0,0,0,7.5,15Z" fill="#6da544"/>
+        <circle id="Ellipse_17" data-name="Ellipse 17" cx="2.609" cy="2.609" r="2.609" transform="translate(4.891 4.891)" fill="#0052b4"/>
+        <circle id="Ellipse_18" data-name="Ellipse 18" cx="1.63" cy="1.63" r="1.63" transform="translate(5.87 5.87)" fill="#f0f0f0"/>
+        <path id="Path_52" data-name="Path 52" d="M7.5,5.488,8,6.629l1.239-.135L8.506,7.5l.736,1.006L8,8.371,7.5,9.512,7,8.371l-1.239.135L6.494,7.5,5.758,6.494,7,6.629Z" fill="#0052b4"/>
+      </g>
+    </g>
+    <rect id="Rectangle_67-3" data-name="Rectangle 67" width="70" height="5" rx="2.5" transform="translate(1428 1999)" fill="#efefef"/>
+    <rect id="Rectangle_69" data-name="Rectangle 69" width="8" height="5" rx="2.5" transform="translate(1428 1999)" fill="#003cff"/>
+    <rect id="Rectangle_59-4" data-name="Rectangle 59" width="340" height="50" transform="translate(1303 2026)" fill="#fff"/>
+    <text id="ID" transform="translate(1328 2057)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">ID</tspan></text>
+    <text id="_5.5_" data-name="5.5%" transform="translate(1508 2057)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">5.5%</tspan></text>
+    <text id="_232.4M" data-name="232.4M" transform="translate(1593 2057)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">232.4M</tspan></text>
+    <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-10 484)" clip-path="url(#clip-path-4)">
+      <g id="poland" transform="translate(1313 1560)">
+        <circle id="Ellipse_19" data-name="Ellipse 19" cx="7.5" cy="7.5" r="7.5" fill="#f0f0f0"/>
+        <path id="Path_53" data-name="Path 53" d="M15,7.5a7.5,7.5,0,0,1-15,0" fill="#d80027"/>
+      </g>
+    </g>
+    <rect id="Rectangle_67-4" data-name="Rectangle 67" width="70" height="5" rx="2.5" transform="translate(1428 2049)" fill="#efefef"/>
+    <rect id="Rectangle_70" data-name="Rectangle 70" width="4" height="5" rx="2" transform="translate(1428 2049)" fill="#003cff"/>
+    <rect id="Rectangle_59-5" data-name="Rectangle 59" width="340" height="50" transform="translate(1303 2076)" fill="#fff"/>
+    <text id="BR" transform="translate(1328 2107)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">BR</tspan></text>
+    <text id="_4_" data-name="4%" transform="translate(1508 2107)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">4%</tspan></text>
+    <text id="_169.3M" data-name="169.3M" transform="translate(1593 2107)" fill="#0b2136" font-size="15" font-family="ArialMT, Arial"><tspan x="0" y="0">169.3M</tspan></text>
+    <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(-10 484)" clip-path="url(#clip-path-5)">
+      <g id="_197386" data-name="197386" transform="translate(1313 1610)">
+        <circle id="Ellipse_20" data-name="Ellipse 20" cx="7.5" cy="7.5" r="7.5" fill="#6da544"/>
+        <path id="Path_54" data-name="Path 54" d="M7.5,2.935,13.7,7.5,7.5,12.065,1.3,7.5Z" fill="#ffda44"/>
+        <circle id="Ellipse_21" data-name="Ellipse 21" cx="2.609" cy="2.609" r="2.609" transform="translate(4.891 4.891)" fill="#f0f0f0"/>
+        <g id="Group_155" data-name="Group 155">
+          <path id="Path_55" data-name="Path 55" d="M6.2,7.337a4.387,4.387,0,0,0-1.3.2A2.608,2.608,0,0,0,9.636,9,4.4,4.4,0,0,0,6.2,7.337Z" fill="#0052b4"/>
+          <path id="Path_56" data-name="Path 56" d="M10.06,8A2.609,2.609,0,0,0,5.1,6.47,5.377,5.377,0,0,1,10.06,8Z" fill="#0052b4"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_67-5" data-name="Rectangle 67" width="70" height="5" rx="2.5" transform="translate(1428 2099)" fill="#efefef"/>
+    <rect id="Rectangle_71" data-name="Rectangle 71" width="3" height="5" rx="1.5" transform="translate(1428 2099)" fill="#003cff"/>
+    <line id="Line_25" data-name="Line 25" x2="340" transform="translate(1303 1926)" fill="none" stroke="#efefef" stroke-width="1"/>
+    <line id="Line_31" data-name="Line 31" x2="340" transform="translate(1303 1976)" fill="none" stroke="#efefef" stroke-width="1"/>
+    <line id="Line_32" data-name="Line 32" x2="340" transform="translate(1303 2026)" fill="none" stroke="#efefef" stroke-width="1"/>
+    <line id="Line_33" data-name="Line 33" x2="340" transform="translate(1303 2076)" fill="none" stroke="#efefef" stroke-width="1"/>
+    <line id="Line_30" data-name="Line 30" x2="340" transform="translate(1303 1876)" fill="none" stroke="#efefef" stroke-width="1"/>
+  </g>
+</svg>

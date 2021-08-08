@@ -1,0 +1,110 @@
+.ts-left {
+    text-align: left;
+    padding: 0 20px;
+    
+    .ts-title {
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .tf-left-content {
+        border: 1px solid #EFEFEF;
+        border-radius: 8px;
+        padding: 5px 20px;
+
+        .ts-left-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .ts-left-header-title {
+                h1 {
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+
+            .ts-left-header-select {
+
+                select {
+                    border-radius: 5px;
+                    border: 0;
+                    padding: 5px 10px;
+                    box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.1);
+                    -webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.1);
+                    -moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.1);
+                }
+            }
+        }
+    }
+}
+
+// This site ranks
+.ts-this-site-ranks {
+     
+    h1 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .tsr-content {
+        display: flex;
+        align-items: center;
+
+        .tsr-content-rank h1 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+
+        h1 {
+            font-size: 12px;
+        }
+    }
+}
+
+// Stats Pic
+.ts-stats  {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @media(max-width:320px){
+        width: 70%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .ts-left {
+        padding: 0 10px;
+    }
+    .ts-title {
+        font-size: 16px !important;
+    }
+    .ts-left-header-title {
+        h1 {
+            font-size: 16px !important;
+        }
+    }
+    .ts-this-site-ranks h1 {
+        font-size: 12px;
+    }
+    .ts-this-site-ranks {
+    
+        .tsr-content {
+    
+            .tsr-content-rank h1 {
+                font-size: 18px;
+                font-weight: 600;
+                margin-right: 10px;
+            }
+    
+            h1 {
+                font-size: 10px;
+            }
+        }
+    }
+}

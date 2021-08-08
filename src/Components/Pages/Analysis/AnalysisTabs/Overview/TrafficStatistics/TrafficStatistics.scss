@@ -1,0 +1,60 @@
+.traffic-statistics-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.ts-right {
+    padding: 0 20px;
+}
+
+.competitors-similar-pages {
+    border: 1px solid #EFEFEF;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.csp-title {
+    h1 {
+        font-size: 14px;
+        text-align: left;
+        font-weight: 500;
+    }
+}
+
+.csp-search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    padding: 4px 6px;
+
+    svg {
+        fill: gray;
+        width: 20px;
+        height: 20px;
+    }
+
+    input {
+        border: 0;
+        outline: none;
+        margin-left: 5px;
+        width: 100%;
+    }
+}
+
+
+
+
+// Responsive
+@media screen and (max-width: 768px) {
+    .traffic-statistics-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .ts-right {
+        padding: 0 10px;
+    }
+}

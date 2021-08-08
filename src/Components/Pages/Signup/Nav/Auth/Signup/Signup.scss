@@ -1,0 +1,74 @@
+.signup {
+    background-color: #003CFF;
+    border-radius: 50px;
+    margin-left: 20px;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .signup-button-text {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 10px 35px;
+    }
+
+    &:hover {
+        background-color: white;
+        transition: .5s;
+        cursor: pointer;
+
+        .signup-button-text {
+            color: #003CFF;
+        }
+    }
+}
+
+
+// Dropdown
+.signup-dropdown {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    padding-top: 30px;
+}
+
+.signup:hover .signup-dropdown {
+    display: block;
+}
+
+
+
+
+// Responsive
+// @media screen and (max-width: 2500px) {
+//     .signup-dropdown {
+//         right: 500px;
+//     }
+// }
+
+// @media screen and (max-width: 2300px) {
+//     .signup-dropdown {
+//         right: 400px;
+//     }
+// }
+
+// @media screen and (max-width: 2100px) {
+//     .signup-dropdown {
+//         right: 300px;
+//     }
+// }
+
+@media screen and (max-width: 1380px) {
+    .signup-dropdown {
+        right: 80px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .signup-dropdown {
+        right: 40px;
+    }
+}

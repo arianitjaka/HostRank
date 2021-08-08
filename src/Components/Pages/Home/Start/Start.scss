@@ -1,0 +1,79 @@
+.start-host{
+    padding: 50px 0px;
+    padding-top: 0px;
+    margin-top: -30px;
+    .title{
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .start-tabs{
+        .react-tabs {
+            display: flex;
+            flex-direction: column;
+            img{
+                width: 50%;
+                margin-top: 20px;
+                @media(max-width:414px){
+                   width: 90%;
+                }
+            }
+            &__tab-list {
+                text-align: center;
+                // padding: 0 12rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                 margin: 0;
+                 @media(max-width:414px){
+                     flex-direction: column;
+                 }
+                
+                }
+                &__tab {
+                   
+                   border: none;
+                   font-size: 1.2rem;
+                   border-radius: unset;
+                   outline: none;
+                   box-shadow: none;
+                  margin: 0px 20px;
+                   width: 300px;
+                   text-align: center;
+                   align-items: center;
+                   display: flex;
+                   justify-content: center;
+                 color: rgba(128, 128, 128, 0.616);
+                   border-radius: 3px;
+                   @media(max-width:414px){
+                       width: 200px !important;
+                  
+                }
+                   .tab-icon{
+                       font-size: 25px;
+                       margin-right: 10px;
+                      
+                   }
+                   @media(max-width:414px){
+                       padding: 12px 20px;
+                       font-size: 16px;
+                   }
+                   &--selected {
+                    border-bottom: 2px solid #003CFF;
+                    color: black;
+                  
+                    // @media(max-width:320px){
+                    //     margin: 0px 0px;
+                    //     padding: 12px 20px;
+                    //     padding: 12px 10px;
+                    //     margin-left: 20px;
+                    // }
+                   
+                    &:after {
+                        width: 100%;
+                      }
+                    }
+           }
+    }
+    }
+}

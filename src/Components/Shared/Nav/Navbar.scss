@@ -1,0 +1,49 @@
+@import "../../../Utils/mixins";
+.navbar {
+  height: 40px;
+  display: flex;
+  align-items: center;
+   margin-left: 100px;
+  @include for-tablet-landscape {
+    display: none;
+  }
+  .explore{
+    color: white;
+    cursor: pointer;
+    margin-left: 40px;
+    color: white;
+ font-weight: 500;
+ font-size: 17px;
+ display: flex;
+ align-items: center;
+ .searchicon{
+   font-size: 19px;
+
+   margin-right: 20px;
+ }
+  }
+  .nomegamenu{
+    display: flex;
+    justify-content: space-between;
+    a{
+      margin-left: 40px;
+      color: white;
+   font-weight: 500;
+   font-size: 17px;
+   display: flex;
+   align-items: center;
+   .searchicon{
+     font-size: 22px;
+     margin-right: 15px;
+     padding-top: 3px;
+     cursor: pointer;
+
+   }
+    }
+  }
+  .nav-items {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+}

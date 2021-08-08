@@ -1,0 +1,38 @@
+.follow-unfollow-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+
+// Responsive
+@media screen and (max-width: 992px) {
+    .follow-unfollow-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .btt-left {
+        padding: 20px 10px !important;
+    }
+    .btt-right {
+        padding: 0 10px !important;
+    }
+    .btt-left-header {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .btt-left-header-title h1 {
+        font-size: 9px !important;
+    }
+    .btt-left-header-select select {
+        margin-top: 10px;
+    }
+    .btt-left-header-content {
+        padding: 5px 10px !important;
+    }
+    .btt-content {
+        padding: 10px 10px 20px 10px !important;
+    }
+}

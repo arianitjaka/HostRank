@@ -1,0 +1,189 @@
+.who-uses-hostrank {
+    background-image: linear-gradient(rgba(11, 34, 55, .9),
+                       rgba(19, 86, 149, .9)), url('../../../../Assets/Home/WhoUsesHostRank/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wuhr-title {
+    margin: auto;
+    padding: 0 20px;
+
+    h1 {
+        font-size: 35px;
+        color: white;
+        font-weight: 600;
+        padding-top: 50px;
+    }
+}
+
+.wuhr-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px 160px 60px 160px;
+
+    .wuhr-left {
+        border: 1px solid white;
+        border-radius: 10px;
+        background-image: linear-gradient(rgba(#FFFFFF, 0.05), rgba(#FFFFFF, 0.10));
+        text-align: left;
+        color: white;
+        padding: 20px;
+        margin: 20px;
+
+        img {
+            width: 70px;
+        }
+
+        h1 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 18px;
+            color: #D8DCE1;
+        }
+    }
+
+    .wuhr-right {
+        border: 1px solid white;
+        border-radius: 10px;
+        background-image: linear-gradient(rgba(#FFFFFF, 0.05), rgba(#FFFFFF, 0.10));
+        padding: 20px;
+        margin: 20px;
+        text-align: left;
+        color: white;
+
+        h1 {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .wuhr-author {
+            margin-top: 50px;
+        }
+
+        p {
+            font-size: 12px;
+            color: #D8DCE1;
+        }
+    }
+
+    .wuhr-left-right-buttons {
+        margin-top: 70px;
+
+        .wuhr-left-button {
+            border-radius: 50%;
+            border: 0;
+            margin-right: 10px;
+
+            svg {
+                margin: auto;
+                // padding: 5px;
+                width: 20px;
+            }
+        }
+
+        .wuhr-right-button {
+            border-radius: 50%;
+            border: 0;
+
+            svg {
+                margin: auto;
+                // padding: 5px;
+                width: 20px;
+            }
+        }
+    }
+}
+
+
+// Tabs
+.tabs-div {
+    border-top: 1px solid rgba(#889DB1, 0.3);
+}
+
+.tabs-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 160px;
+    // width: 100%;
+}
+
+.tab {
+    cursor: pointer;
+    color: #889DB1;
+    padding: 10px;
+    margin: 0 10px 5px 10px;
+}
+.active-tab {
+    background: transparent;
+    border-top: 2px solid white;
+    color: white;
+}
+
+
+
+
+
+// Responsive
+@media screen and (max-width: 1300px) {
+    .wuhr-content {
+        padding: 10px 100px 60px 100px;
+    }
+    .tabs-content {
+        margin: 0 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .wuhr-content {
+        padding: 10px 40px 60px 40px;
+    }
+    .wuhr-left {
+        margin-left: 0 !important;
+    }
+    .wuhr-right {
+        margin-right: 0 !important;
+    }
+    .tabs-content {
+        margin: 0 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wuhr-content {
+        grid-template-columns: 1fr;
+        padding: 10px 20px 60px 20px;
+    }
+    .wuhr-left, .wuhr-right {
+        margin: 20px 0 !important;
+    }
+    .tabs-content {
+        margin: 0 10px;
+    }
+    .tab {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tabs-content {
+        margin: 0;
+    }
+    .tab {
+        font-size: 10px;
+        margin: 0 5px 5px 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .tab {
+        font-size: 6px;
+        padding: 5px;
+        margin: 0 0 5px 0;
+    }
+}

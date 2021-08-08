@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.386" height="40" viewBox="0 0 24.386 40">
+  <g id="_4282752" data-name="4282752" transform="translate(-97)">
+    <path id="Path_286" data-name="Path 286" d="M233.581,358.59h-3.623l-3.623-1.208,3.623-1.208h3.623Z" transform="translate(-118.927 -327.51)" fill="#ffb739"/>
+    <path id="Path_287" data-name="Path 287" d="M180.666,356.175h7.3v2.415h-7.3Z" transform="translate(-76.934 -327.51)" fill="#ffd17e"/>
+    <path id="Path_288" data-name="Path 288" d="M230.053,439.415H226.43l-3.623-1.208L226.43,437h3.623Z" transform="translate(-115.683 -401.831)" fill="#ffb739"/>
+    <path id="Path_289" data-name="Path 289" d="M177.14,437h7.3v2.415h-7.3Z" transform="translate(-73.691 -401.831)" fill="#ffd17e"/>
+    <path id="Path_290" data-name="Path 290" d="M301.333,326.744v12.549a.6.6,0,0,0,.6.6h1.208a.6.6,0,0,0,.6-.6V326.744a.6.6,0,0,0-.6-.6h-1.208A.6.6,0,0,0,301.333,326.744Z" transform="translate(-187.888 -299.897)" fill="#dae0e7"/>
+    <path id="Path_291" data-name="Path 291" d="M165.667,326.744v12.549a.6.6,0,0,0,.6.6h1.208a.6.6,0,0,0,.6-.6V326.744a.6.6,0,0,0-.6-.6h-1.208A.6.6,0,0,0,165.667,326.744Z" transform="translate(-63.141 -299.897)" fill="#eceff3"/>
+    <path id="Path_292" data-name="Path 292" d="M248.5,0V24.4a12.2,12.2,0,0,0,0-24.4Z" transform="translate(-139.312)" fill="#54a5ff"/>
+    <path id="Path_293" data-name="Path 293" d="M118.971,12.2c0-6.737-4.378-12.2-9.778-12.2a12.2,12.2,0,0,0,0,24.4C114.593,24.4,118.971,18.935,118.971,12.2Z" transform="translate(0 0)" fill="#89c1ff"/>
+    <path id="Path_294" data-name="Path 294" d="M248.5,60V74.735A7.367,7.367,0,1,0,248.5,60Z" transform="translate(-139.309 -55.169)" fill="#f0224e"/>
+    <path id="Path_295" data-name="Path 295" d="M169.319,67.367c0-4.069-2.217-7.367-4.952-7.367a7.367,7.367,0,1,0,0,14.735C167.1,74.735,169.319,71.436,169.319,67.367Z" transform="translate(-55.173 -55.169)" fill="#ff4c50"/>
+    <circle id="Ellipse_41" data-name="Ellipse 41" cx="2.553" cy="2.553" r="2.553" transform="translate(106.64 9.508)" fill="#ffd17e"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+.pricing-banner{
+    padding: 200px 0px;
+    text-align: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 250px;
+    background-image: url(../../../../Assets/Home/Header/bg.webp);
+    position: relative;
+   z-index: -1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    h1{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    p{
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+}
+@media(max-width:414px){
+    .pricing-banner{
+        padding-top: 100px;
+        h1{
+            font-size: 30px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="294" height="332.684" viewBox="0 0 294 332.684">
+  <g id="Group_238" data-name="Group 238" transform="translate(-782 -4720.316)">
+    <text id="_65_" data-name="65%" transform="translate(958.918 4731.316)" fill="#003cff" font-size="12" font-family="ArialMT, Arial" letter-spacing="0.019em"><tspan x="0" y="0">65%</tspan></text>
+    <text id="_21_" data-name="21%" transform="translate(958.918 4755.976)" fill="#8fc447" font-size="12" font-family="ArialMT, Arial" letter-spacing="0.019em"><tspan x="0" y="0">21%</tspan></text>
+    <text id="_10_" data-name="10%" transform="translate(958.918 4780.636)" fill="#fc762e" font-size="12" font-family="ArialMT, Arial" letter-spacing="0.019em"><tspan x="0" y="0">10%</tspan></text>
+    <text id="_4_" data-name="4%" transform="translate(958.918 4805.295)" fill="#fa0" font-size="12" font-family="ArialMT, Arial" letter-spacing="0.019em"><tspan x="0" y="0">4%</tspan></text>
+    <path id="Path_377" data-name="Path 377" d="M488.117,570.854a109.6,109.6,0,0,1,0-219.028h0V339.51A121.859,121.859,0,1,0,546.58,568.258l-6.057-10.787a108.761,108.761,0,0,1-52.406,13.383Z" transform="translate(465.8 4380.807)" fill="#003cff"/>
+    <path id="Path_378" data-name="Path 378" d="M471.968,530.084a84.847,84.847,0,1,1,0-169.693V348.06h0a97.191,97.191,0,1,0,0,194.383V530.084Z" transform="translate(481.949 4396.916)" fill="#8fc447"/>
+    <path id="Path_379" data-name="Path 379" d="M456.015,489.314a60.187,60.187,0,1,1,0-120.373V356.61h0a72.538,72.538,0,1,0,16.873,143.029l-2.48-12.142A59.278,59.278,0,0,1,456.015,489.314Z" transform="translate(497.902 4413.026)" fill="#fc762e"/>
+    <path id="Path_380" data-name="Path 380" d="M404.194,413.009a35.562,35.562,0,0,1,35.534-35.5h0V365.16h0A47.821,47.821,0,0,0,415.7,454.34l6.23-10.643a35.476,35.476,0,0,1-17.738-30.688Z" transform="translate(514.189 4429.137)" fill="#fa0"/>
+    <g id="Group_235" data-name="Group 235" transform="translate(50)">
+      <rect id="Rectangle_134" data-name="Rectangle 134" width="15" height="15" rx="3" transform="translate(732 5008)" fill="#003cff"/>
+      <rect id="Rectangle_136" data-name="Rectangle 136" width="15" height="15" rx="3" transform="translate(732 5038)" fill="#fc762e"/>
+      <rect id="Rectangle_137" data-name="Rectangle 137" width="15" height="15" rx="3" transform="translate(946 5038)" fill="#fa0"/>
+      <rect id="Rectangle_135" data-name="Rectangle 135" width="15" height="15" rx="3" transform="translate(946 5008)" fill="#8fc447"/>
+      <text id="Google_Display_Network" data-name="Google Display Network" transform="translate(757 5020)" fill="#0b2136" font-size="13" font-family="ArialMT, Arial"><tspan x="0" y="0">Google Display Network</tspan></text>
+      <text id="Ad6_Media" data-name="Ad6 Media" transform="translate(757 5050)" fill="#0b2136" font-size="13" font-family="ArialMT, Arial"><tspan x="0" y="0">Ad6 Media</tspan></text>
+      <text id="Skimlinks" transform="translate(971 5050)" fill="#0b2136" font-size="13" font-family="ArialMT, Arial"><tspan x="0" y="0">Skimlinks</tspan></text>
+      <text id="Clickadu" transform="translate(971 5020)" fill="#0b2136" font-size="13" font-family="ArialMT, Arial"><tspan x="0" y="0">Clickadu</tspan></text>
+    </g>
+  </g>
+</svg>

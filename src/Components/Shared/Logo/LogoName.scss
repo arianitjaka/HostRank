@@ -1,0 +1,16 @@
+
+.LogoName {
+  display: flex;
+  align-items: center;
+ 
+  }
+  .logoName-scrolled {
+    color: #2a2a2a;
+  }
+
+.logoimg{
+//  width: 200%;
+@media(max-width:414px){
+  margin-left: -30px;
+}
+}

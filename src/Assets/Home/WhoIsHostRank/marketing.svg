@@ -1,0 +1,20 @@
+<svg id="marketing" xmlns="http://www.w3.org/2000/svg" width="37.188" height="35" viewBox="0 0 37.188 35">
+  <path id="XMLID_552_" d="M4.377,0H0V3.83l2.188.547L4.377,3.83,5.471,1.915Z" transform="translate(0 10.937)" fill="#f4d844"/>
+  <path id="XMLID_545_" d="M0,0V3.83H4.377L5.471,1.915,4.377,0Z" transform="translate(0 14.765)" fill="#ecbd2c"/>
+  <path id="XMLID_556_" d="M7.51,7.566,8.753,3.783,7.51,0H0V7.566l3.755.547Z" transform="translate(4.377 7.202)" fill="#dd4e4e"/>
+  <path id="XMLID_553_" d="M3.282,11.807,4.377,5.9,3.282,0,1.094.56,0,6.184l1.094,5.623,1.094.547Z" transform="translate(25.155 2.964)" fill="#dd4e4e"/>
+  <path id="XMLID_559_" d="M1.094,0,0,2.8,1.094,5.6l2.188.547L5.471,5.6V2.188L1.094,0Z" transform="translate(31.717 9.167)" fill="#dd4e4e"/>
+  <path id="XMLID_558_" d="M1.094,5.6,5.471,3.412V0H1.094L0,2.8Z" transform="translate(31.717 14.765)" fill="#c21456"/>
+  <path id="XMLID_542_" d="M4.38,2.188V0H.749C.818.383-.06.748,0,1.094c.07.387,1.08.751,1.143,1.094Z" transform="translate(12.027 27.343)" fill="#c21456"/>
+  <path id="XMLID_361_" d="M4.227.454,2.114,0,0,.454V13.13H6.565c-.029-.153-.253-.9-2.337-12.676Z" transform="translate(7.656 21.87)" fill="#28487a"/>
+  <path id="XMLID_546_" d="M1.094,0,0,5.623l1.094,5.623,2.188.56L4.377,5.9,3.282,0Z" transform="translate(25.155 14.763)" fill="#c21456"/>
+  <path id="XMLID_549_" d="M0,0V7.566H7.51L8.753,3.783,7.51,0Z" transform="translate(4.377 14.764)" fill="#c21456"/>
+  <path id="XMLID_555_" d="M14.373,11.247V0L0,3.681v7.566l7.187.547Z" transform="translate(11.879 3.524)" fill="#f4d844"/>
+  <path id="XMLID_557_" d="M2.188,12.368,3.282,6.184,2.188,0,0,.56V12.368l1.094.547Z" transform="translate(28.434 2.403)" fill="#f4d844"/>
+  <g id="Group" transform="translate(11.873)">
+    <path id="XMLID_550_" d="M0,0V11.807l2.188.56L3.282,6.184,2.188,0H0Z" transform="translate(16.561 14.771)" fill="#ecbd2c"/>
+    <path id="XMLID_548_" d="M0,0V7.566l14.373,3.681V0Z" transform="translate(0 14.771)" fill="#ecbd2c"/>
+    <path id="XMLID_554_" d="M2.188,14.771V0H0V14.771l1.094.547Z" transform="translate(18.75)" fill="#ecbd2c"/>
+  </g>
+  <path id="XMLID_547_" d="M0,0V14.771H2.188V0Z" transform="translate(30.623 14.762)" fill="#e58f22"/>
+</svg>

@@ -1,0 +1,32 @@
+.mm-container {
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.mm-title {
+    h1 {
+        text-align: left;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.mm-stats-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    .mm-stats-cols-content {
+       margin: 20px;
+       width: 50%;
+        img {
+            width: 50%;
+        }
+
+        h1 {
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+}

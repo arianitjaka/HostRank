@@ -1,0 +1,97 @@
+.table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    .table-rank {
+        display: flex;
+        align-items: center;
+
+        .rank-logo {
+            width: 14px;
+            height: 14px;
+        }
+
+        h1 {
+            font-size: 12px;
+            font-weight: 600;
+            margin: 0 4px;
+        }
+    }
+}
+
+
+.table-content {
+    
+    table {
+        width: 100%;
+        border-radius: 20px;
+        border-collapse: collapse;
+
+        .left-side-col {
+            border-left: 1px solid #EFEFEF;
+        }
+
+        .right-side-col {
+            border-right: 1px solid #EFEFEF;
+        }
+
+        #first-left-col {
+            border-top-left-radius: 20px !important;
+        }
+
+        
+
+        tr {
+            text-align: center !important;
+
+            th {
+                margin-bottom: 50px;
+            }
+
+            td {
+                border-top: 1px solid #EFEFEF;
+                border-bottom: 1px solid #EFEFEF;
+                font-size: 12px;
+                font-weight: 500;
+                width: 20%;
+            }
+        }
+        .website-row {
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            margin: auto;
+
+            h1 {
+                font-size: 12px;
+                font-weight: 500;
+                margin-left: 5px;
+            }
+        }
+
+        .table-rank {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+    
+            .rank-logo {
+                width: 14px;
+                height: 14px;
+            }
+    
+            h1 {
+                font-size: 12px;
+                font-weight: 600;
+                margin: 0 4px;
+            }
+        }
+    }
+}
+
+

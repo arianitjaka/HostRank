@@ -1,0 +1,128 @@
+.dropdown-signup {
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+.signup-dropdown-header {
+
+    h1 {
+       margin-top: 0;
+       margin-bottom: 25px;
+       font-size: 20px;
+       font-weight: 600;
+    }
+}
+
+.signup-input-fields {
+    text-align: left;
+    margin-top: 10px;
+
+    h6 {
+        color: #0B2136;
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .signup-username-input {
+        border: 1px solid #EFEFEF;
+        display: flex;
+        align-items: center;
+        padding: 10px 12px;
+        border-radius: 8px;
+
+        input {
+            border: 0;
+            outline: none;
+            margin-left: 5px;
+            width: 100%;
+        }
+    }
+
+    .signup-password-input {
+        border: 1px solid #EFEFEF;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        border-radius: 8px;
+
+        input {
+            border: 0;
+            outline: none;
+            margin-left: 5px;
+        }
+
+        .signup-show-password {
+            border: 0;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            background-color: blue;
+            cursor: pointer;
+
+            h1 {
+                font-size: 12px;
+                color: white;
+                font-weight: 600;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding: 10px 12px;
+            }
+        }
+    }
+
+    #signup-confirm-password {
+        margin-top: 10px;
+    }
+
+    .signup-remember-password {
+        display: flex;
+        margin-top: 15px;
+
+        h6 {
+            margin-left: 5px;
+            color: #7F8D9B;
+        }
+
+        span {
+            color: #003CFF;
+        }
+    }
+}
+
+.signup-button {
+    width: 100%;
+    border-radius: 50px;
+    border: 0;
+    background-color: #003CFF;
+    margin-top: 20px;
+    cursor: pointer;
+
+    h5 {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        font-weight: 600;
+    }
+}
+
+.signup-no-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    a {
+        color: #003CFF;
+        margin-left: 5px;
+    }
+
+    h6 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+}

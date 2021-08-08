@@ -1,0 +1,155 @@
+.who-is-host-rank-for {
+    padding: 50px;
+    background-image: url("../../../../Assets/Home/WhoIsHostRank/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // height: 100%;
+
+    .title {
+
+        h1 {
+            width: max-content;
+            margin: auto;
+            font-weight: 600;
+        }
+    }
+    
+    .cols-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 30px 100px;
+    
+        .col-content {
+            cursor: pointer;
+            background-color: white;
+            margin: 15px;
+            text-align: left;
+            padding: 30px 20px;
+            border-radius: 5px;
+            // box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+            // -webkit-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+            // -moz-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+        
+            hr {
+                color: #EFEFEF;
+                opacity: .3;
+            }
+        
+            .col-image {
+                background-color: #F5F6F7;
+                width: fit-content;
+                border-radius: 50%;
+        
+                img {
+                    width: 30px;
+                    height: 30px;
+                    padding: 15px;
+                }
+            }
+        
+            .col-title {
+        
+                h5 {
+                    margin-bottom: 10px;
+                }
+            }
+        
+            .col-paragraph {
+        
+                p {
+                    font-size: 16px;
+                    line-height: 1.6;
+                    margin-top: 0;
+                    color: #32597E;
+                }
+            }
+        
+            .col-dots {
+                display: flex;
+                align-items: center;
+        
+                img {
+                    margin-right: 5px;
+                 
+                }
+        
+                h6 {
+                    margin-top: 10px;
+               
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                    color: #32597E;
+                }
+            }
+        
+            .learn-more {
+                display: flex;
+                align-items: center;
+                color: #2755E9;
+        
+                h6 {
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                    font-size: 15px;
+                }
+        
+                img {
+                    margin-top: 5px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// Responsive
+@media screen and (max-width: 1500px) {
+    .cols-div {
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .cols-div {
+        grid-template-columns: 1fr 1fr !important;
+        margin: 20px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .who-is-host-rank-for {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cols-div {
+        grid-template-columns: 1fr !important;
+    }
+    .title {
+        max-width: 400px;
+        margin: auto;
+        padding: 0 20px;
+    }
+    .col-content {
+        margin: 15px 0 !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title {
+    
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+}

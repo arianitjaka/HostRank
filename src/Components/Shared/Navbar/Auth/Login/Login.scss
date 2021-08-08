@@ -1,0 +1,59 @@
+.login {
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    h1 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+// Dropdown
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    padding-top: 30px;
+}
+
+.login:hover .dropdown{
+    display: block;
+}
+
+
+
+
+// Responsive
+// @media screen and (max-width: 2500px) {
+//     .dropdown {
+//         right: 500px;
+//     }
+// }
+
+// @media screen and (max-width: 2300px) {
+//     .dropdown {
+//         right: 400px;
+//     }
+// }
+
+// @media screen and (max-width: 2100px) {
+//     .dropdown {
+//         right: 300px;
+//     }
+// }
+
+@media screen and (max-width: 1380px) {
+    .dropdown {
+        right: 80px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .dropdown {
+        right: 40px;
+    }
+}

@@ -1,0 +1,56 @@
+.tbc-right {
+    padding: 10px 20px;
+}
+
+.tbc-content {
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.tbc-title {
+    text-align: left;
+
+    h1 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.tbc-top-domains-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .top-domains-left {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            font-size: 12px;
+            font-weight: 400;
+            margin-left: 6px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    .top-domains-right {
+        h1 {
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+}
+
+.top-domains-hr {
+    margin: 5px auto;
+    opacity: .2;
+}
+
+#tv-bottom {
+    h1 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

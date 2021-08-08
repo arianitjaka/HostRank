@@ -1,0 +1,222 @@
+.monetization {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: left;
+    padding: 100px 50px;
+}
+
+// Left
+.left-content {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.left-info {
+
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+}
+
+.left-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+    .get-started-button {
+        background-color: #003CFF;
+        border: 0;
+        border-radius: 50px;
+        padding: 10px 30px;
+        cursor: pointer;
+        
+        a {
+            text-decoration: none;
+
+            h1 {
+                color: white;
+                font-size: 12px;
+                font-weight: 500;
+            }
+        }
+
+        &:hover {
+            background-color: #0033da;
+            transition: .5s;
+            cursor: pointer;
+        }
+    }
+
+    .learn-more {
+        border: 0;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        cursor: pointer;
+
+        a {
+            text-decoration: none;
+
+            h1 {
+                font-size: 12px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
+// Right
+.stack-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 14px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 14px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 14px -10px rgba(0,0,0,0.75);
+
+    .stack-number h1 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .stack-logo-name {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 20px;
+        }
+
+        h1 {
+            font-size: 16px;
+            margin-left: 10px;
+            font-weight: 600;
+        }
+    }
+
+    .stack-visits h1 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .stack-check img {
+        width: 25px;
+    }
+}
+
+#google {
+    margin-right: 140px;
+}
+#youtube {
+    margin-left: 20px;
+    margin-right: 120px;
+}
+#facebook {
+    margin-left: 40px;
+    margin-right: 100px;
+}
+#twitter {
+    margin-left: 60px;
+    margin-right: 80px;
+}
+#instagram {
+    margin-left: 80px;
+    margin-right: 60px;
+}
+
+
+
+
+// Responsive
+@media screen and (max-width: 1400px) {
+    .monetization {
+        padding: 100px 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .monetization {
+        grid-template-columns: 1fr;
+        padding: 100px 50px;
+    }
+    .left-content {
+        margin: 0 0 50px 0;
+    }
+    #google {
+        margin-left: 20px;
+        margin-right: 100px;
+    }
+    #youtube {
+        margin-left: 40px;
+        margin-right: 80px;
+    }
+    #facebook {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    #twitter {
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+    #instagram {
+        margin-left: 100px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .monetization {
+        padding: 100px 20px;
+    }
+    #google, #youtube, #facebook, #twitter, #instagram {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .left-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .learn-more {
+            margin-left: 0 !important;
+            margin-top: 20px;
+        }
+    }
+
+    .stack-number h1 {
+        font-size: 12px !important;
+    }
+    .stack-logo-name {
+
+        img {
+            width: 15px !important;
+        }
+
+        h1 {
+            font-size: 12px !important;
+            margin-left: 5px !important;
+        }
+    }
+    .stack-visits h1 {
+        font-size: 12px !important;
+    }
+
+    .stack-check img {
+        width: 15px !important;
+    }
+}

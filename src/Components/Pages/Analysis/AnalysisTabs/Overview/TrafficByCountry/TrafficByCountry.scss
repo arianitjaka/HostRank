@@ -1,0 +1,35 @@
+.traffic-by-country-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+// Responsive
+@media screen and (max-width: 992px) {
+    .traffic-by-country-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .tbc-left {
+        padding: 20px 10px !important;
+    }
+    .tbc-right {
+        padding: 0 10px !important;
+    } 
+    .tbc-left-header {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .tbc-left-header-title h1 {
+        font-size: 9px !important;
+    }
+    .tbc-left-header-select select {
+        margin-top: 10px;
+    }
+    .tbc-left-header-content {
+        padding: 5px 10px !important;
+    }
+}
+

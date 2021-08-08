@@ -1,0 +1,135 @@
+.platform {
+    background-image: linear-gradient(rgba(11, 34, 55, .9),
+                       rgba(19, 86, 149, .9)), url('../../../../Assets/Home/Platform/background.png');
+    // height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 60px 160px;
+    margin-top: -100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-header {
+
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 18px !important;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+}
+
+.info-content {
+    text-align: left;
+    color: white;
+    margin-right: 150px;
+}
+
+.dots-content {
+    display: flex;
+    align-items: center;
+
+    img {
+        margin-right: 10px;
+    }
+
+    h5 {
+        font-weight: 400;
+        opacity: .6;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    #filled-dot {
+        opacity: 1;
+        font-weight: bold;
+    }
+}
+
+.info-button {
+    width: fit-content;
+    background-color: #00FF77;
+    border-radius: 50px;
+    margin-top: 30px;
+
+    a {
+        margin: auto;
+        text-decoration: none;
+        color: #2A2A2A;
+    }
+
+    h5 {
+        padding: 15px 25px;
+        font-weight: 500;
+    }
+
+    &:hover {
+        background-color: #00e46a;
+        transition: .5s;
+
+        h5 {
+            color: #005226;
+        }
+    }
+}
+
+.info-image img {
+    width: 100%;
+}
+
+
+
+
+// Responsive
+@media screen and (max-width: 1400px) {
+    .platform {
+        padding: 60px 80px;
+    }
+    .info-content {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .platform {
+        grid-template-columns: 1fr;
+        padding: 60px;
+    }
+    .info-content {
+        margin: auto;
+    }
+    .info-image {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .platform {
+        padding: 40px 20px;
+    }
+    .info-header {
+    
+        h1 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+    .dots-content h5 {
+        font-size: 12px;
+    }
+}

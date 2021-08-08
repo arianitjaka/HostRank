@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11.268" height="20.3" viewBox="0 0 11.268 20.3">
+  <g id="Smartphone" transform="translate(-119.85 -7.85)">
+    <path id="Path_33" data-name="Path 33" d="M121.613,8h7.742a1.615,1.615,0,0,1,1.613,1.613V26.387A1.615,1.615,0,0,1,129.355,28h-7.742A1.615,1.615,0,0,1,120,26.387V9.613A1.615,1.615,0,0,1,121.613,8Zm1.684.645.194.968h3.987l.194-.968Zm-2.652,17.742a.969.969,0,0,0,.968.968h7.742a.969.969,0,0,0,.968-.968V9.613a.969.969,0,0,0-.968-.968h-1.026L128.058,10a.323.323,0,0,1-.316.259h-4.516a.323.323,0,0,1-.316-.259l-.271-1.354h-1.026a.969.969,0,0,0-.968.968Z" transform="translate(0)" fill="#4a5867" stroke="#4a5867" stroke-width="0.3"/>
+    <g id="Group_135" data-name="Group 135" transform="translate(-2.258)">
+      <path id="Path_34" data-name="Path 34" d="M152.323,456h1.935a.323.323,0,0,1,0,.645h-1.935a.323.323,0,1,1,0-.645Z" transform="translate(-24.903 -429.936)" fill="#4a5867" stroke="#4a5867" stroke-width="0.3"/>
+      <path id="Path_36" data-name="Path 36" d="M224.723,456h.723c.4,0,.723.144.723.323s-.324.323-.723.323h-.723c-.4,0-.723-.144-.723-.323S224.324,456,224.723,456Z" transform="translate(-98.193 -429.936)" fill="#4a5867" stroke="#4a5867" stroke-width="0.3"/>
+      <path id="Path_35" data-name="Path 35" d="M224.323,456h.323a.323.323,0,1,1,0,.645h-.323a.323.323,0,1,1,0-.645Z" transform="translate(-98.193 -429.936)" fill="#4a5867" stroke="#4a5867" stroke-width="0.3"/>
+    </g>
+  </g>
+</svg>

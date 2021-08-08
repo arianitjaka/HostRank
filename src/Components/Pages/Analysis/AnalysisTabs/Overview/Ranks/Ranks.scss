@@ -1,0 +1,72 @@
+.ranks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.rank-content {
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    text-align: left;
+    margin: 20px;
+    padding: 5px 20px;
+
+    h1 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 5px;
+    }
+
+    p {
+        margin-top: 5px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .rank-icon {
+        text-align: right;
+
+        img {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+
+
+// Responsive
+@media screen and (max-width: 992px) {
+    .rank-content {
+        margin: 10px;
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ranks-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .rank-content {
+        padding: 5px 10px;
+    
+        h1 {
+            font-size: 14px;
+        }
+    
+        p {
+            font-size: 18px;
+        }
+    
+        .rank-icon {
+    
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}

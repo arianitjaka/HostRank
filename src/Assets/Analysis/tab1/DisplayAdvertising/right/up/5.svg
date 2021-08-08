@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12.115" viewBox="0 0 17 12.115">
+  <g id="api" transform="translate(0 -4.31)">
+    <g id="Group_618" data-name="Group 618" transform="translate(0 4.31)">
+      <g id="Group_617" data-name="Group 617">
+        <path id="Path_656" data-name="Path 656" d="M15.506,4.31H1.494A1.5,1.5,0,0,0,0,5.8v9.127a1.5,1.5,0,0,0,1.494,1.494H15.506A1.5,1.5,0,0,0,17,14.931V5.8A1.5,1.5,0,0,0,15.506,4.31ZM16,14.931a.5.5,0,0,1-.5.5H1.494a.5.5,0,0,1-.5-.5V7.777H16Zm0-8.151H1V5.8a.5.5,0,0,1,.5-.5H15.506a.5.5,0,0,1,.5.5Z" transform="translate(0 -4.31)" fill="#0224fa"/>
+      </g>
+    </g>
+    <g id="Group_620" data-name="Group 620" transform="translate(4.092 9.082)">
+      <g id="Group_619" data-name="Group 619">
+        <path id="Path_657" data-name="Path 657" d="M8.831,12.73A1.613,1.613,0,0,0,7.22,14.341v2.174a.5.5,0,0,0,1,0V15.57H9.446v.944a.5.5,0,0,0,1,0V14.341A1.613,1.613,0,0,0,8.831,12.73Zm.615,1.844H8.217v-.233h0a.615.615,0,1,1,1.229,0v.233Z" transform="translate(-7.22 -12.73)" fill="#0224fa"/>
+      </g>
+    </g>
+    <g id="Group_622" data-name="Group 622" transform="translate(8.002 9.082)">
+      <g id="Group_621" data-name="Group 621">
+        <path id="Path_658" data-name="Path 658" d="M15.923,12.73h-1.3a.5.5,0,0,0-.5.5v3.286a.5.5,0,0,0,1,0V15.57h.805a1.42,1.42,0,1,0,0-2.84Zm0,1.844h-.805v-.848h.805a.424.424,0,1,1,0,.848Z" transform="translate(-14.121 -12.73)" fill="#0224fa"/>
+      </g>
+    </g>
+    <g id="Group_624" data-name="Group 624" transform="translate(11.912 9.082)">
+      <g id="Group_623" data-name="Group 623">
+        <path id="Path_659" data-name="Path 659" d="M21.52,12.73a.5.5,0,0,0-.5.5v3.286a.5.5,0,0,0,1,0V13.228A.5.5,0,0,0,21.52,12.73Z" transform="translate(-21.022 -12.73)" fill="#0224fa"/>
+      </g>
+    </g>
+  </g>
+</svg>

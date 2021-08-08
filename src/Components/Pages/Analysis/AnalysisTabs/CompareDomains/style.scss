@@ -1,0 +1,197 @@
+.compare-domains-tab{
+    padding: 40px;
+
+    .content-part{
+        display: flex;
+        @media(max-width:823px){
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .content{
+            text-align: left;
+            margin-top: -20px;
+            width: 55%;
+            margin-left: 100px;
+            @media(max-width:823px){
+                width: 100%;
+                margin: 0px ;
+                margin-top: 50px;
+            }
+            @media(max-width:414px){
+                width: 110%;
+                overflow-x: hidden;
+                padding: 0px;
+                margin-left: -40px;
+            }
+            ul{
+                li{
+                    margin: 0px !important;
+                    list-style: none;
+                    text-align: left;
+                    display: flex;
+                    margin-top: -15px !important;
+                    @media(max-width:414px){
+                        flex-direction: column;
+                    }
+                    .icon{
+                        margin-top: 14px;
+                         margin-right: 10px;
+                        font-size: 27px;
+                        color: #003cffc2;
+                        p{
+                            margin: 0px;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+            h2{
+                font-weight: 400;
+                margin-left: 40px;
+                @media(max-width:414px){
+                    margin: 0px;
+                    margin-top: 80px;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .image-part{
+            .first-tab{
+                width: 300px;
+                border: 1px solid rgba(128, 128, 128, 0.432);
+                border-radius: 10px;
+                border-top: 15px solid rgba(128, 128, 128, 0.493);
+                @media(max-width:280px){
+                    width: 250px;
+                }
+                position: relative;
+                .tabs-part2{
+                  position: absolute;
+                  top: 150px;
+                  right: -100px;
+                  padding: 10px;
+                  border: 1px solid rgba(128, 128, 128, 0.096);
+                  background-color: white;
+                  @media(max-width:501px){
+                    left: 0px;
+                    width: 200px;
+                  }
+                  .first-panel{
+                      padding: 1px ;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      .circle{
+                          width: 20px;
+                          height: 20px;
+                          border-radius: 50%;
+                          background-color: rgb(0, 174, 255);
+                          margin: 0px 10px;
+                      }
+                      p{
+                          font-size: 14px;
+                      }
+                      .circle1{
+                        background-color: rgb(7, 192, 7);
+                    }
+                  }
+                  .second-panel{
+                      margin-top: 20px;
+                      .circle{
+                          background-color: pink;
+                      }
+                      .circle1{
+                          background-color: rgb(0, 174, 255);
+                      }
+                  }
+                  .react-tabs {
+                    display: flex;
+                    flex-direction: column;
+                   
+                    &__tab-list {
+                        text-align: center;
+                        // padding: 0 12rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: none;
+                         margin: 0;
+                         @media(max-width:414px){
+                             flex-wrap: wrap;
+                         }
+                        
+                        }
+                        &__tab {
+                           
+                           border: none;
+                           font-size: 14px;
+                           border-radius: unset;
+                           outline: none;
+                           box-shadow: none;
+                           width: 90px;
+                           
+                           text-align: center;
+                           align-items: center;
+                           display: flex;
+                           justify-content: center;
+                         color: rgba(128, 128, 128, 0.616);
+                          
+                    
+                     
+                           &--selected {
+                            background-color: rgb(0, 174, 255);
+                            color: black;
+                            color: white;
+                  
+                           }
+                }
+            }
+        }
+        .tabs-part3{
+            margin-top: 30px;
+        }
+                .same-tabs{
+                    padding: 10px;
+                    display: flex;
+                    justify-content: center;
+                    .tab{
+                        width: 60px;
+                        height: 0px;
+                        background-color: rgba(128, 128, 128, 0.432);
+                        margin: 0px 2px;
+                    }
+                }
+                .small-tabs{
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0px 0px;
+                    .tab{
+                        width: 90px;
+                        padding:5px 15px;
+                        border: 1px solid rgba(128, 128, 128, 0.24);
+                        display: flex;
+                        align-items: center;
+                        .circle{
+                            width: 20px;
+                            height: 20px;
+                            border-radius: 50%;
+                            background-color: rgb(0, 174, 255);
+                        }
+                        .circle1{
+                            background-color: rgb(7, 192, 7);
+                        }
+                       .line{
+                           margin-left: 10px;
+                           width: 60px;
+                           height: 3px;
+                           border-radius: 50px;
+                           background-color: rgba(128, 128, 128, 0.356);
+                       }
+                    }
+                }
+            }
+        }
+    }
+}

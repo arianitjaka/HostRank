@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_125" data-name="Rectangle 125" width="15" height="15" rx="2" transform="translate(1303 2344)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_41" data-name="Mask Group 41" transform="translate(-1303 -2344)" clip-path="url(#clip-path)">
+    <g id="google-icon_4_" data-name="google-icon (4)" transform="translate(1303.15 2344)">
+      <path id="Path_293" data-name="Path 293" d="M14.7,7.667a6.427,6.427,0,0,0-.158-1.533H7.5V8.917h4.133A3.665,3.665,0,0,1,10.1,11.35l-.014.093,2.226,1.725.154.015A7.333,7.333,0,0,0,14.7,7.667" fill="#4285f4"/>
+      <path id="Path_294" data-name="Path 294" d="M7.5,15a7.149,7.149,0,0,0,4.967-1.817L10.1,11.35a4.439,4.439,0,0,1-2.6.75A4.515,4.515,0,0,1,3.233,8.983l-.088.007L.83,10.782l-.03.084A7.5,7.5,0,0,0,7.5,15" fill="#34a853"/>
+      <path id="Path_295" data-name="Path 295" d="M3.233,8.983A4.617,4.617,0,0,1,2.983,7.5a4.852,4.852,0,0,1,.242-1.483l0-.1L.877,4.1.8,4.133a7.484,7.484,0,0,0,0,6.733L3.233,8.983" fill="#fbbc05"/>
+      <path id="Path_296" data-name="Path 296" d="M7.5,2.9a4.157,4.157,0,0,1,2.9,1.117L12.517,1.95A7.206,7.206,0,0,0,7.5,0,7.5,7.5,0,0,0,.8,4.133L3.225,6.017A4.534,4.534,0,0,1,7.5,2.9" fill="#eb4335"/>
+    </g>
+  </g>
+</svg>
